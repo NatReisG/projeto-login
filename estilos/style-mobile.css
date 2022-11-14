@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* Paleta de cores
+
+    Verde: #49a09d
+    Lilas: 5f2c82
+*/
+body, html{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(43, 42, 42);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section{
+    position: absolute;
+    height: 550px;
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section > div#imagem{
+    background-image: url(/imagens/pexels-dinnow-9444476.jpg);
+    height: 25vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div#formulario{
+    padding: 0px, 20px;
+}
+h1{
+    margin-top: 5px;
+}
+input#ilogin{
+    width: 112px;
+}
+input#isenha{
+    width: 100px;
+}
+input.botao{
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(185, 103, 2);
+}
+input.botao:hover{
+    cursor: pointer;
+    background-color: rgb(247, 137, 4);
+    background-image: linear-gradient(to bottom, rgb(185, 103, 2), rgb(121, 79, 2));
+}
+div#formulario{
+    padding: 0px 20px;
+}
+p{
+    text-align: justify;
+}

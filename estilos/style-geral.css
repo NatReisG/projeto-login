@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    section#login{
+        height: 400px;
+        width: 800px;
+    }
+    section > div#imagem{
+        display: inline-block;
+        width: 300px;
+        height: 400px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    section> div#formulario{
+        position: absolute;
+        display: inline-block;
+        width: 400px;
+        top: 50px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    section#login{
+        height: 400px;
+        width: 1000px;
+    }
+    section > div#imagem{
+        position: absolute;
+        display: inline-block;
+        width: 450px;
+        height: 400px;
+        right: 0px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+
+        border-top-left-radius: 0px;
+    }
+    section> div#formulario{
+        position: absolute;
+        display: inline-block;
+        width: 400px;
+        top: 50px;
+    }
+}
